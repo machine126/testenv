@@ -3,14 +3,14 @@ trigger:
   branches:
     include:
     - '*'
-lockBehavior: sequential
-  pool:
+pool:
     vmImage: Ubuntu-latest
-
+lockBehavior: sequential
   jobs:
   - job: Job1
     steps:
     - script: echo Hey Stage A4!
+    
   - job: Job2
     steps:
     - script: echo Hey Stage B3!
