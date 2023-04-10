@@ -14,6 +14,3 @@ jobs:
   - job: Job2
     steps:
     - script: echo Hey Stage B1!
-  - job: Job3
-    steps:
-    - script: echo Hey Stage C1!
