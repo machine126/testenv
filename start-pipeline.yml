@@ -9,8 +9,8 @@ lockBehavior: runLatest
 jobs:
   - job: Job1
     steps:
-    - script: echo Hey Stage A1!
+    - script: echo Hey Stage A2!
     
   - job: Job2
     steps:
-    - script: echo Hey Stage B1!
+    - script: echo Hey Stage B2!
