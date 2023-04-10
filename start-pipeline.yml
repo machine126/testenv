@@ -5,7 +5,7 @@ trigger:
     - '*'
 pool:
     vmImage: Ubuntu-latest
-lockBehavior: sequential
+lockBehavior: runLatest
 jobs:
   - job: Job1
     steps:
