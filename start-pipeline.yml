@@ -1,0 +1,28 @@
+
+trigger: 
+  - master
+
+lockBehavior: runLatest
+
+stages:
+- stage: A
+  pool:
+    vmImage: Ubuntu-latest
+  jobs:
+  - job: Job
+    steps:
+    - script: echo Hey Stage A2!
+- stage: B
+  pool:
+    vmImage: Windows-latest
+  jobs:
+  - job: Job
+    steps:
+    - script: echo Hey Stage B2!
+- stage: C
+  pool:
+    vmImage: Ubuntu-latest
+  jobs:
+  - job: Job
+    steps:
+    - script: echo Hey Stage C2!
