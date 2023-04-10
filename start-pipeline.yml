@@ -11,18 +11,18 @@ stages:
   jobs:
   - job: Job
     steps:
-    - script: echo Hey Stage A2!
+    - script: echo Hey Stage A3!
 - stage: B
   pool:
     vmImage: Windows-latest
   jobs:
   - job: Job
     steps:
-    - script: echo Hey Stage B2!
+    - script: echo Hey Stage B3!
 - stage: C
   pool:
     vmImage: Ubuntu-latest
   jobs:
   - job: Job
     steps:
-    - script: echo Hey Stage C2!
+    - script: echo Hey Stage C3!
