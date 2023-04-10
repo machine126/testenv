@@ -9,11 +9,11 @@ lockBehavior: sequential
 jobs:
   - job: Job1
     steps:
-    - script: echo Hey Stage A4!
+    - script: echo Hey Stage A1!
     
   - job: Job2
     steps:
-    - script: echo Hey Stage B3!
+    - script: echo Hey Stage B1!
   - job: Job3
     steps:
-    - script: echo Hey Stage C3!
+    - script: echo Hey Stage C1!
