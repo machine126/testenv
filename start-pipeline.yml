@@ -1,7 +1,8 @@
 
 trigger: 
-  - master
-
+  branches:
+    include:
+    - '*'
 lockBehavior: runLatest
 
 stages:
